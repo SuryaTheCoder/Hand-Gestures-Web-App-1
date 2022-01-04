@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gestures Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="heading">
+            <h2 class="head">GESTURES WEB APP
+                <br>
+                <b>&#128076;</b>
+                <b>&#128077;</b>
+                <b>&#9996;</b>
+                <b>&#9994;</b>
+                <b>&#128079;</b>
+                <b>&#129304;</b>
+            </h2>
+        </div>
+        <h2>Take a selfie of a gesture to kwnow its meaning</h2>
+        <h3>On the following gesture the model is trained - </h3>
+        <br>
+        <b>&#128076;</b>
+        <b style="color: white; font-size: 40px;">|</b>
+        <b>&#128077;</b>
+        <b style="color: white; font-size: 40px;">|</b>
+        <b>&#9996;</b>
+        <br>
+        <br>
+        <div class="webcam">
+            <label>Webcam View - </label>
+            <div class="view"></div>
+            <button class="btn" onclick="take_snapshot();">Capture Image</button>
+        </div>
+        <br> <br>
+        <div class="snapshot">
+            <label>Snapshot - </label>
+            <div class="view"></div>
+            <button class="btn btn-success" onclick="check();">Predict Emotion</button>
+        </div>
+    </center>
+</body>
+</html>
